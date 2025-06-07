@@ -1,70 +1,93 @@
-# Repositório de Atividades em Java
+# Repositório de Projetos Java
 
-Este repositório contém 4 atividades em Java separadas, cada uma com seu próprio método `main`. Abaixo estão as instruções para compilar e executar cada programa.
+Este repositório contém 4 projetos Java independentes, cada um com sua própria classe `Main`. Todos devem ser executados separadamente.
 
-## Estrutura
+## Estrutura do Projeto
 
-/Calculadora
-Main.java
-/CPFCalculator
-Main.java
-/DescobridorDeRaizesz
-Main.java
-/Atividade4
-/src
-Principal.java
-text
+      /Calculadora
+      Main.java
+      /CPFCalculator
+      Main.java
+      /DescobridorDeRaizes
+         Main.java
+      /ConversorDeUnidades
+      Main.java
+      text   
 
 
-## Como Executar Cada Atividade
+## Como Executar Cada Projeto
 
-Cada atividade deve ser compilada e executada individualmente. Não é possível executar todos os programas simultaneamente, pois cada um tem seu próprio ponto de entrada (`main`).
+### Via Terminal/CMD:
 
-### Para quem usa Terminal/CMD:
-
-1. Navegue até a pasta da atividade:
+1. Navegue até a pasta do projeto desejado:
    ```bash
-   cd Atividade1/src
+   cd Calculadora
 
     Compile o arquivo Java:
     bash
 
-javac Principal.java
+javac Main.java
 
-Execute o programa compilado:
+Execute o programa:
 bash
 
-    java Principal
+    java Main
 
-Repita esses passos para cada atividade (Atividade2, Atividade3, Atividade4), mudando para o diretório correspondente.
-Para quem usa IDE (Eclipse, IntelliJ, etc.):
+Repita esses passos para cada projeto, entrando na pasta correspondente:
 
-    Abra o projeto na sua IDE
+    cd CPFCalculator
 
-    Navegue até o arquivo Principal.java da atividade que deseja executar
+    cd DescobridorDeRaizes
 
-    Clique com o botão direito e selecione "Executar" (ou use o atalho da IDE)
+    cd ConversorDeUnidades
 
-    Repita para outras atividades selecionando seus respectivos arquivos Principal.java
+Via IDE (Eclipse, IntelliJ, VSCode):
 
-Observações Importantes
+    Importe a pasta do projeto que deseja executar
 
-    Você deve executar cada programa separadamente
+    Localize o arquivo Main.java correspondente
 
-    Executar um programa não afeta os outros
+    Execute usando as opções da IDE:
 
-    Cada atividade é independente com sua própria funcionalidade
+        Botão direito → "Run"
 
-    Verifique se você tem Java instalado (java -version para verificar)
+        Ou use o atalho de execução (🔴 ou Ctrl+F11)
 
-    Os arquivos podem ter nomes diferentes de "Principal.java" - verifique o nome exato em cada pasta
+Descrição dos Projetos
 
-Dúvidas?
+    Calculadora
+    Programa que realiza operações matemáticas básicas
 
-Se encontrar problemas ao executar os programas, verifique:
+    CPFCalculator
+    Validador e/ou gerador de CPF
 
-    Se está no diretório correto
+    DescobridorDeRaizes
+    Calcula raízes de equações matemáticas
 
-    Se o nome da classe no arquivo .java corresponde ao nome do arquivo
+    ConversorDeUnidades
+    Converte entre diferentes unidades de medida
 
-    Se o Java está instalado corretamente
+Requisitos
+
+    Java JDK 8 ou superior instalado
+
+    Variáveis de ambiente configuradas corretamente
+
+Dicas
+
+🔹 Cada projeto é totalmente independente
+🔹 Verifique o nome exato da classe principal (deve ser igual ao nome do arquivo)
+🔹 Se ocorrer erro "classe principal não encontrada", confira se está na pasta certa
+Solução de Problemas
+
+❌ Erro ao compilar?
+
+    Verifique se o Java está instalado (java -version)
+
+    Confira se está no diretório correto
+
+❌ Arquivo não encontrado?
+
+    Liste os arquivos com dir (Windows) ou ls (Linux/Mac)
+
+    Confira a capitalização (letras maiúsculas/minúsculas) do nome do arquivo
