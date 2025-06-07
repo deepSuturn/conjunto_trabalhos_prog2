@@ -12,7 +12,6 @@ Este repositório contém 4 projetos Java independentes, cada um com sua própri
          Main.java
       /ConversorDeUnidades
       Main.java
-      text   
 
 
 ## Como Executar Cada Projeto
@@ -24,13 +23,11 @@ Este repositório contém 4 projetos Java independentes, cada um com sua própri
    cd Calculadora
 
     Compile o arquivo Java:
-    bash
 
-javac Main.java
+      javac Main.java
 
-Execute o programa:
-bash
-
+      Execute o programa:
+   
     java Main
 
 Repita esses passos para cada projeto, entrando na pasta correspondente:
@@ -69,7 +66,7 @@ Descrição dos Projetos
 
 Requisitos
 
-    Java JDK 8 ou superior instalado
+    Java JDK 8 ou superior instalado(Java 21 Recomendado)
 
     Variáveis de ambiente configuradas corretamente
 
