@@ -4,15 +4,12 @@ Este repositório contém 4 atividades em Java separadas, cada uma com seu próp
 
 ## Estrutura
 
-/Atividade1
-/src
-Principal.java
-/Atividade2
-/src
-Principal.java
-/Atividade3
-/src
-Principal.java
+/Calculadora
+Main.java
+/CPFCalculator
+Main.java
+/DescobridorDeRaizesz
+Main.java
 /Atividade4
 /src
 Principal.java
